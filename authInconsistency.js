@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not always trigger when the authentication state changes, especially in scenarios involving multiple tabs or windows, or when there are rapid authentication changes. This can lead to unexpected behavior in your application, where user authentication status isn't accurately reflected in your UI or data access logic.
